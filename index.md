@@ -23,7 +23,7 @@ This allows us to include full working dereferenceable code samples, and use the
 And now a block with some highlights - combining two plugins for prism.js.
 <https://prismjs.com/plugins/line-highlight/>
 
-{: .line-numbers data-src="manifest.json" data-line="169-182" }
+{: .line-numbers data-src="manifest.json" data-line="11-17,169-182" }
 ```json
 ```
 
