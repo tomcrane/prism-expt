@@ -24,3 +24,11 @@ https://prismjs.com/plugins/line-highlight/
 {: .line-numbers data-src="manifest.json" data-line="169-182" }
 ```json
 ```
+
+Can we restrict the code snippet to just a part of the source file?
+(We may need to write a prism plugin for some of these variations)
+I just made up `data-scroll-to-line`
+
+{: .line-numbers data-src="manifest.json" data-line="82,90" style="max-height:200px" data-scroll-to-line="81" }
+```json
+```
