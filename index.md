@@ -2,7 +2,6 @@
 
 This is a code block
 
-
 {: .line-numbers }
 ```javascript
 
@@ -13,6 +12,13 @@ alert(x);
 
 How do we include a file for highlighting? This is done client side:
 
-{:data-src="manifest.json"}
+{: .line-numbers data-src="manifest.json" }
+```json
+```
+
+And now a block with some highlights
+
+
+{: .line-numbers data-src="manifest.json" data-line="10,20" }
 ```json
 ```
