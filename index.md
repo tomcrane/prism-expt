@@ -1,6 +1,7 @@
 # Test
 
-This is a code block
+This is a code block with line numbers
+https://prismjs.com/plugins/line-numbers/
 
 {: .line-numbers }
 ```javascript
@@ -11,14 +12,15 @@ alert(x);
 ```
 
 How do we include a file for highlighting? This is done client side:
+https://prismjs.com/plugins/file-highlight/
 
 {: .line-numbers data-src="manifest.json" }
 ```json
 ```
 
-And now a block with some highlights
+And now a block with some highlights. 
+https://prismjs.com/plugins/line-highlight/
 
-
-{: .line-numbers data-src="manifest.json" data-line="10,20" }
+{: .line-numbers data-src="manifest.json" data-line="169-182" }
 ```json
 ```
