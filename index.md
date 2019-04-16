@@ -27,7 +27,7 @@ https://prismjs.com/plugins/line-highlight/
 
 Can we restrict the code snippet to just a part of the source file?
 (We may need to write a prism plugin for some of these variations)
-I just made up `data-scroll-to-line`- it would need to identify the line referenced, then scroll it into view in the div with max-height.
+I just made up `data-scroll-to-line`- it would need to identify the line referenced, then scroll it into view in the div with max-height. You'll have to manually scroll to line 81.
 
 {: .line-numbers data-src="manifest.json" data-line="82,90" style="max-height:350px" data-scroll-to-line="81" }
 ```json
